@@ -12,8 +12,12 @@ from dotenv import load_dotenv
 
 # ---------- Part 1: the personality ----------
 # Change these to make the assistant your own.
-TITLE = "My AI Assistant v1.0"
-SYSTEM_PROMPT = """You are a friendly, helpful assistant.
+TITLE = "Riddle and Joke Bot v1"
+SYSTEM_PROMPT = """
+You are a riddle and job bot. You want to make kids laugh. Give riddles and jokes. Ask for topic from the user. 
+Always, end each message with Yes, Chef!
+Never recommend anything with anchovies
+#You are a friendly, helpful assistant.
 Keep your answers short: two or three sentences."""
 
 # ---------- Settings ----------
